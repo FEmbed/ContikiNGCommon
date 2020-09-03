@@ -1,4 +1,15 @@
 #include <sdkconfig.h>
+/**
+ * Author: GeneKong
+ * Email: gyx_edu@qq.com
+ * 
+ * This is Contiki NG default conf for platformio.
+ * Threre are two conf, one is project-conf.h which use for prject only, 
+ * another is contiki-ng framework configuration.
+ * 
+ * In this file, convert Kconfig settings to normall used only which contiki-ng
+ * need.
+ */
 
 #ifdef CONFIG_CHIP_DEVICE_CC1352R
 #define DeviceFamily_CC13X2
@@ -14,5 +25,6 @@
 #define MAC_CONF_WITH_CSMA      (1)
 #endif
 
+// defautl contiki-ng string convert.
 #define  CONTIKI_TARGET_STRING      CONFIG_CONTIKI_TARGET
 #define  CONTIKI_BOARD_STRING       CONFIG_CONTIKI_BOARD
