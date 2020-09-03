@@ -1,0 +1,7 @@
+config CONTIKI_TARGET
+    string  "Contiki Target"
+    default "simplelink"  if VENDOR_TI
+
+config CONTIKI_BOARD
+    string  "Contiki Board"
+    default "launchpad/cc1352r1"  if VENDOR_TI
