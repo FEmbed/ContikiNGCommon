@@ -1,0 +1,17 @@
+{
+    "name": "ContikiNGCommon",
+    "keywords": "ContikiNGCommon",
+    "description": "ContikiNGCommon",
+    "authors":
+    {
+        "name": "Gene Kong",
+        "email": "gyx_edu@qq.com"
+    },
+    "version": "1.0.0",
+    "frameworks": ["contiki-ng"],
+    "platforms": ["simplelink"],
+    "build": {
+        "extraScript": "extra_script.py",
+        "libArchive": false
+    }
+}
